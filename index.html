@@ -52,7 +52,48 @@
         </div>
     </header>
     <section class="container-fluid">
-        <div class="row row-table">
+        <div class="row">
+            <!-- ^ There used to be a row-table class here but apparently it causes positioning issues.  -->
+            <div class="col-md-4 bg-color-personal-info section-column">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="section-heading uppercase">Personal Info</h3>
+                    </div>
+                    <div class="personal-info-item col-12">
+                        <div class="key">
+                            <p class="uppercase">Name:</p>
+                        </div>
+                        <div class="value">
+                            <p class="value">Rosie Odenkirk</p>
+                        </div>
+                    </div>
+                    <!-- ^ What's useful here is the key/value system of class naming that allows you to easily style multiple elements after the fact. -->
+                    <div class="personal-info-item col-12">
+                        <div class="key">
+                            <p class="uppercase">Address:</p>
+                        </div>
+                        <div class="value">
+                            <p class="value">17 Riverdale, Catskills, NY USA</p>
+                        </div>
+                    </div>
+                    <div class="personal-info-item col-12">
+                        <div class="key">
+                            <p class="uppercase">Phone:</p>
+                        </div>
+                        <div class="value">
+                            <p class="value">555 204 1973</p>
+                        </div>
+                    </div>
+                    <div class="personal-info-item col-12">
+                        <div class="key">
+                            <p class="uppercase">Email:</p>
+                        </div>
+                        <div class="value">
+                            <p class="value">rosie.odenkirk@hansaw.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="col-md-8 bg-color-three-reasons section-column">
                 <!-- ^ section-column specifies that this column is a table cell. (row-table speifies the use of a table) Gives us evenly sized columns in terms of height. -->
                 <div class="row">
